@@ -1,0 +1,7 @@
+*.bkp
+*.dtmp
+
+.vs/
+.vscode/
+*.drawio.bak
+
