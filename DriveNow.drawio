@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<mxfile host="Electron" agent="draw.io desktop" pages="38"><diagram id="p001" name="1-ERD-1-Staff">
+<mxfile host="Electron" agent="draw.io desktop" pages="39">
+  <diagram id="p001" name="1-ERD-1-Staff">
     <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3800" pageHeight="2547" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -5185,4 +5185,162 @@
       </root>
     </mxGraphModel>
   </diagram>
-  </mxfile>
+  <diagram id="p039" name="4-Business-Rules">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3000" pageHeight="1867" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=29;fontColor=#17243a;fontStyle=1;spacing=0;" value="Business rules" vertex="1">
+          <mxGeometry height="60" width="2904" x="48" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#057f67;fontStyle=0;spacing=0;" value="Ziad Maghraby" vertex="1">
+          <mxGeometry height="30" width="500" x="55" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR01  Customer types and phone numbers" vertex="1">
+          <mxGeometry height="38" width="1365" x="65" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.1, 7.7" vertex="1">
+          <mxGeometry height="28" width="1360" x="70" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; A foreign key checks that a parent exists. It cannot require a child phone row, exactly one customer subtype, or prevent an employee being both agent and mechanic." vertex="1">
+          <mxGeometry height="67" width="1350" x="70" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Use deferred triggers. Check one customer subtype, at least one phone per customer/branch, and no agent/mechanic overlap at the end of the transaction." vertex="1">
+          <mxGeometry height="77" width="1350" x="70" y="392" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR02  Managers and supervisors" vertex="1">
+          <mxGeometry height="38" width="1365" x="80" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.1" vertex="1">
+          <mxGeometry height="28" width="1360" x="85" y="549" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; Manager membership is in another row. A self-reference CHECK stops someone supervising themselves, but not a longer cycle." vertex="1">
+          <mxGeometry height="40" width="1350" x="85" y="589" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Check that the manager works at that branch. Use a recursive query to reject supervision cycles. Insert branch and manager together with deferred foreign keys." vertex="1">
+          <mxGeometry height="77" width="1350" x="85" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR03  Prices must not overlap" vertex="1">
+          <mxGeometry height="38" width="1365" x="57" y="751" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.3-7.4, 7.8, 7.13, 8" vertex="1">
+          <mxGeometry height="28" width="1360" x="62" y="791" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; Checking an interval against other price rows needs more than a row CHECK. Choosing the right price also depends on the car and category." vertex="1">
+          <mxGeometry height="67" width="1350" x="62" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Use a pricing procedure with an owner lock. Require an initial catalog price, reject overlaps and prefer the VIN override. Store charged prices on rentals. Only the rate-change procedure may close an old period; do not rewrite old charges." vertex="1">
+          <mxGeometry height="77" width="1350" x="62" y="903" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR04  Blacklisted customers cannot book" vertex="1">
+          <mxGeometry height="38" width="1365" x="73" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.7" vertex="1">
+          <mxGeometry height="28" width="1360" x="78" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; The booking needs to check the blacklist table. The employee making the decision must be a manager at that time." vertex="1">
+          <mxGeometry height="40" width="1350" x="78" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Validate the manager when recording the decision. Lock the customer during booking/confirmation and reject blacklisted customers. Keep the original decision." vertex="1">
+          <mxGeometry height="77" width="1350" x="78" y="1145" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR05  Use the right customer and driver" vertex="1">
+          <mxGeometry height="38" width="1365" x="60" y="1262" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.7, 7.11-7.12" vertex="1">
+          <mxGeometry height="28" width="1360" x="65" y="1302" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; The composite FK checks a company driver when supplied. It does not require one only for corporate rentals, or compare the booking category and customer." vertex="1">
+          <mxGeometry height="67" width="1350" x="65" y="1342" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; The rental procedure checks customer type, driver company and valid license. For a booking, check customer, category and branches. Individual rentals do not use a company driver." vertex="1">
+          <mxGeometry height="77" width="1350" x="65" y="1414" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR06  Extensions and car availability" vertex="1">
+          <mxGeometry height="38" width="1365" x="83" y="1531" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.12" vertex="1">
+          <mxGeometry height="28" width="1360" x="88" y="1571" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; A UNIQUE predecessor allows one extension, but cannot stop longer loops or another rental using the car at the same time." vertex="1">
+          <mxGeometry height="40" width="1350" x="88" y="1611" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Lock the old rental and car. Check the extension chain, keep customer/VIN, close the old agreement and open the next. Reject overlapping rental intervals." vertex="1">
+          <mxGeometry height="77" width="1350" x="88" y="1656" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR07  Promo limits and booking status" vertex="1">
+          <mxGeometry height="38" width="1365" x="1550" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.9, 7.11" vertex="1">
+          <mxGeometry height="28" width="1360" x="1555" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; Uses must be counted across bookings. Two bookings could take the last use together. Status changes depend on the previous status." vertex="1">
+          <mxGeometry height="40" width="1350" x="1555" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Lock the promo during confirmation, check its dates and remaining uses, then update the booking. Allow only valid status changes. Calculate UsedCount from the consuming statuses in A12." vertex="1">
+          <mxGeometry height="77" width="1350" x="1555" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR08  Points and customer tier" vertex="1">
+          <mxGeometry height="38" width="1365" x="1565" y="637" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.10" vertex="1">
+          <mxGeometry height="28" width="1360" x="1570" y="677" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; Balance is a sum of ledger rows. A CHECK cannot verify the total or whether the linked rental belongs to that customer." vertex="1">
+          <mxGeometry height="40" width="1350" x="1570" y="717" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Lock the individual account. Check rental ownership/completion, prevent duplicate rental credits and reject redemption above the balance. Append ledger entries; calculate balance and tier from them." vertex="1">
+          <mxGeometry height="77" width="1350" x="1570" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR09  Keep location and status history" vertex="1">
+          <mxGeometry height="38" width="1365" x="1542" y="879" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.3, 7.6" vertex="1">
+          <mxGeometry height="28" width="1360" x="1547" y="919" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; The old vehicle state and transfer history are separate rows. Updating just one would leave the records inconsistent." vertex="1">
+          <mxGeometry height="40" width="1350" x="1547" y="959" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Lock the VIN. Check source branch and mileage, insert the transfer/status log, then update the vehicle in the same transaction. Do not allow direct unaudited updates." vertex="1">
+          <mxGeometry height="77" width="1350" x="1547" y="1004" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR10  Repair jobs and parts stock" vertex="1">
+          <mxGeometry height="38" width="1365" x="1558" y="1121" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.14-7.15" vertex="1">
+          <mxGeometry height="28" width="1360" x="1563" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; A repair must be for the car on the damage report. Parts used in several jobs affect the same stock record." vertex="1">
+          <mxGeometry height="40" width="1350" x="1563" y="1201" as="geometry" />
+        </mxCell>
+        <mxCell id="43" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Check the job VIN against the damage rental. Lock each part, check enough stock, store the cost used, and subtract the quantity in one transaction." vertex="1">
+          <mxGeometry height="77" width="1350" x="1563" y="1246" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR11  Violations and feedback" vertex="1">
+          <mxGeometry height="38" width="1365" x="1545" y="1363" as="geometry" />
+        </mxCell>
+        <mxCell id="45" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.14" vertex="1">
+          <mxGeometry height="28" width="1360" x="1550" y="1403" as="geometry" />
+        </mxCell>
+        <mxCell id="46" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; Violation time must match another table. Feedback also needs to check who is submitting it and whether the rental has ended." vertex="1">
+          <mxGeometry height="40" width="1350" x="1550" y="1443" as="geometry" />
+        </mxCell>
+        <mxCell id="47" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Check the violation against the rental time interval. Only let the rental customer submit feedback after return. The rental UNIQUE constraint separately limits it to one response." vertex="1">
+          <mxGeometry height="77" width="1350" x="1550" y="1488" as="geometry" />
+        </mxCell>
+        <mxCell id="48" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontColor=#17243a;fontStyle=1;spacing=0;" value="BR12  Monthly invoices and credit limits" vertex="1">
+          <mxGeometry height="38" width="1365" x="1568" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="49" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#057f67;fontStyle=0;spacing=0;" value="SRS 7.16" vertex="1">
+          <mxGeometry height="28" width="1360" x="1573" y="1645" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;Why:&lt;/b&gt; Customer ownership, invoice totals and outstanding credit depend on several rows. A row CHECK cannot calculate them." vertex="1">
+          <mxGeometry height="40" width="1350" x="1573" y="1685" as="geometry" />
+        </mxCell>
+        <mxCell id="51" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="&lt;b&gt;How:&lt;/b&gt; Lock the corporate account. Collect eligible completed rentals for the return month, check the customer and credit exposure, store billed amounts and issue a nonempty invoice. Sum its lines for InvoiceTotal." vertex="1">
+          <mxGeometry height="77" width="1350" x="1573" y="1730" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
