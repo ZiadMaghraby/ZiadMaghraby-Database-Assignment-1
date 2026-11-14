@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mxfile host="Electron" agent="draw.io desktop" pages="37"><diagram id="p001" name="1-ERD-1-Staff">
+<mxfile host="Electron" agent="draw.io desktop" pages="38"><diagram id="p001" name="1-ERD-1-Staff">
     <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3800" pageHeight="2547" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -4846,6 +4846,341 @@
         </mxCell>
         <mxCell id="27" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#17243a;fontStyle=0;spacing=0;" value="CK: (RentalNo IS NOT NULL AND InvoiceID IS NULL) OR (RentalNo IS NULL AND InvoiceID IS NOT NULL)&lt;br&gt;CK: (Method = Cash AND TransactionRef IS NULL) OR (Method IN (Card, Bank transfer) AND TransactionRef IS NOT NULL)" vertex="1">
           <mxGeometry height="187" width="2102" x="1318" y="1147" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p038" name="3-Questions-Assumptions">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3500" pageHeight="3700" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=29;fontColor=#17243a;fontStyle=1;spacing=0;" value="Questions and assumptions" vertex="1">
+          <mxGeometry height="60" width="3404" x="48" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#057f67;fontStyle=0;spacing=0;" value="Ziad Maghraby" vertex="1">
+          <mxGeometry height="30" width="500" x="55" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=26;fontColor=#17243a;fontStyle=1;spacing=0;" value="Questions" vertex="1">
+          <mxGeometry height="45" width="1000" x="60" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q01 - SRS 7.1" vertex="1">
+          <mxGeometry height="30" width="1000" x="60" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Does the manager have to work at the branch they manage? What happens when the regional director covers the role? Do we need previous managers too?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q02 - SRS 7.1" vertex="1">
+          <mxGeometry height="30" width="1000" x="72" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="How do overnight opening hours work? Is an employee allowed to have no middle name?" vertex="1">
+          <mxGeometry height="40" width="984" x="68" y="473" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q03 - SRS 7.2" vertex="1">
+          <mxGeometry height="30" width="1000" x="55" y="549" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="What score is a pass? Can someone retake a course after passing, or start two attempts at once?" vertex="1">
+          <mxGeometry height="40" width="984" x="68" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q04 - SRS 7.3" vertex="1">
+          <mxGeometry height="30" width="1000" x="60" y="653" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="What identifies a car model? Which transmission types should be allowed?" vertex="1">
+          <mxGeometry height="40" width="984" x="68" y="689" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q05 - SRS 7.3, 8" vertex="1">
+          <mxGeometry height="30" width="1000" x="72" y="753" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Is the special luxury price for one car or the whole model? Can that price change?" vertex="1">
+          <mxGeometry height="40" width="984" x="68" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q06 - SRS 7.3, 7.6" vertex="1">
+          <mxGeometry height="30" width="1000" x="55" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Which branch should a car show while rented or in transit? Do transfers need separate departure and arrival times?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="901" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q07 - SRS 7.5" vertex="1">
+          <mxGeometry height="30" width="1000" x="60" y="996" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Do we keep old tracker installations? Can two devices use the same SIM number?" vertex="1">
+          <mxGeometry height="40" width="984" x="68" y="1032" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q08 - SRS 7.7, 8" vertex="1">
+          <mxGeometry height="30" width="1000" x="72" y="1096" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="How do we match a company driver to an individual customer when the company record has no license issuing country?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="1132" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q09 - SRS 7.7" vertex="1">
+          <mxGeometry height="30" width="1000" x="55" y="1235" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Can a blacklist be removed? What happens to bookings already made?" vertex="1">
+          <mxGeometry height="40" width="984" x="68" y="1271" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q10 - SRS 7.8-7.9" vertex="1">
+          <mxGeometry height="30" width="1000" x="60" y="1339" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Do corporate contracts have their own number? Can a customer use a company discount and a promo together?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="1375" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q11 - SRS 7.9" vertex="1">
+          <mxGeometry height="30" width="1000" x="72" y="1466" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="When does a promo count as used? Does cancelling release it? Must the rental dates also be inside the promo dates?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="1502" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q12 - SRS 7.10" vertex="1">
+          <mxGeometry height="30" width="1000" x="55" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="How much earns one point? How much is a redeemed point worth? Is tier based on current points or lifetime points?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="1641" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q13 - SRS 7.12" vertex="1">
+          <mxGeometry height="30" width="1000" x="60" y="1736" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="How is the late fee calculated? What are the rounding rules and minimum rental period? When is the daily price fixed?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="1772" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q14 - SRS 7.12" vertex="1">
+          <mxGeometry height="30" width="1000" x="72" y="1863" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Does an extension need a physical return? Can the vehicle or customer change?" vertex="1">
+          <mxGeometry height="40" width="984" x="68" y="1899" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q15 - SRS 7.12" vertex="1">
+          <mxGeometry height="30" width="1000" x="55" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Which details are needed for extra drivers? Is the fee per driver or for all extra drivers together?" vertex="1">
+          <mxGeometry height="40" width="984" x="68" y="2011" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q16 - SRS 7.14-7.15" vertex="1">
+          <mxGeometry height="30" width="1000" x="60" y="2079" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Are photos required for every damage report? Can a job start with no mechanic assigned? How is labor included in the cost?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="2115" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q17 - SRS 7.16" vertex="1">
+          <mxGeometry height="30" width="1000" x="72" y="2206" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Which payment types are allowed? How should refunds work if payment amounts must always be positive?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="2242" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q18 - SRS 7.16" vertex="1">
+          <mxGeometry height="30" width="1000" x="55" y="2345" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Which month gets the invoice for a long rental? Can one rental appear on more than one invoice? How are later fines and credits billed?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="2381" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q19 - SRS 7.4, 7.13, 8" vertex="1">
+          <mxGeometry height="30" width="1000" x="60" y="2476" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Does Finance need all old catalog prices, including prices that were never charged?" vertex="1">
+          <mxGeometry height="40" width="984" x="68" y="2512" as="geometry" />
+        </mxCell>
+        <mxCell id="43" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#057f67;fontStyle=1;spacing=0;" value="Q20 - SRS 7.7, 7.12" vertex="1">
+          <mxGeometry height="30" width="1000" x="72" y="2576" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="When a corporate account closes, which records should be kept and which personal details should be removed?" vertex="1">
+          <mxGeometry height="67" width="984" x="68" y="2612" as="geometry" />
+        </mxCell>
+        <mxCell id="45" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=26;fontColor=#17243a;fontStyle=1;spacing=0;" value="Assumptions" vertex="1">
+          <mxGeometry height="45" width="1210" x="1150" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="46" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A01 - SRS 7.1" vertex="1">
+          <mxGeometry height="30" width="1210" x="1150" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="47" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Use Is24Hours. Opening and closing times are NULL for a 24-hour branch. Otherwise both are needed and must differ. Closing before opening means overnight." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="431" as="geometry" />
+        </mxCell>
+        <mxCell id="48" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A02 - SRS 7.1" vertex="1">
+          <mxGeometry height="30" width="1210" x="1162" y="522" as="geometry" />
+        </mxCell>
+        <mxCell id="49" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="The manager works at the managed branch; temporary cover is reassigned there. Keep the current manager and start date only. Middle name is optional. Employee national ID and email are unique." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A03 - SRS 7.2" vertex="1">
+          <mxGeometry height="30" width="1210" x="1145" y="661" as="geometry" />
+        </mxCell>
+        <mxCell id="51" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Give every course attempt a new ID. Fill completion date, score and result together. Do not assume a pass mark or limit retakes." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="697" as="geometry" />
+        </mxCell>
+        <mxCell id="52" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A04 - SRS 7.2-7.16" vertex="1">
+          <mxGeometry height="30" width="1210" x="1150" y="792" as="geometry" />
+        </mxCell>
+        <mxCell id="53" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Add IDs where the SRS gives none. Counts are integers, money is decimal EGP, and IDs/phones are text. Only reservation status gets the stated Pending default." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="828" as="geometry" />
+        </mxCell>
+        <mxCell id="54" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A05 - SRS 7.3, 7.8-7.9" vertex="1">
+          <mxGeometry height="30" width="1210" x="1162" y="919" as="geometry" />
+        </mxCell>
+        <mxCell id="55" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Periods include the start but not the end. A NULL price end means still valid. Periods for the same owner cannot overlap. Categories, extras and packages need a price before use." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="56" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A06 - SRS 7.3, 7.6" vertex="1">
+          <mxGeometry height="30" width="1210" x="1145" y="1058" as="geometry" />
+        </mxCell>
+        <mxCell id="57" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="A special price belongs to one VIN and takes priority over its category price. During a rental, current branch means the last custody branch. Update it on transfer or return." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="1094" as="geometry" />
+        </mxCell>
+        <mxCell id="58" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A07 - SRS 7.5" vertex="1">
+          <mxGeometry height="30" width="1210" x="1150" y="1189" as="geometry" />
+        </mxCell>
+        <mxCell id="59" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Keep the current tracker installation only. A stored device has NULL VIN and installation date. Do not assume SIM numbers are unique." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="1225" as="geometry" />
+        </mxCell>
+        <mxCell id="60" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A08 - SRS 7.4, 7.13, 8" vertex="1">
+          <mxGeometry height="30" width="1210" x="1162" y="1316" as="geometry" />
+        </mxCell>
+        <mxCell id="61" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Keep price history for extras and insurance as well as the price charged on each rental. Read the current price from history instead of storing it twice." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="1352" as="geometry" />
+        </mxCell>
+        <mxCell id="62" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A09 - SRS 7.7, 8" vertex="1">
+          <mxGeometry height="30" width="1210" x="1145" y="1455" as="geometry" />
+        </mxCell>
+        <mxCell id="63" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Customer address is text. An individual has NationalID or PassportNo, not both; each non-NULL value is unique. License key = country + number. A company driver may link to an individual account, and one account may link to several companies." vertex="1">
+          <mxGeometry height="94" width="1194" x="1158" y="1491" as="geometry" />
+        </mxCell>
+        <mxCell id="64" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A10 - SRS 7.7" vertex="1">
+          <mxGeometry height="30" width="1210" x="1150" y="1613" as="geometry" />
+        </mxCell>
+        <mxCell id="65" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Treat blacklisting as permanent for now, with one decision per customer. Keep old rentals. Account closure and retention still need a decision." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="1649" as="geometry" />
+        </mxCell>
+        <mxCell id="66" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A11 - SRS 7.8-7.9" vertex="1">
+          <mxGeometry height="30" width="1210" x="1162" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="67" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Store company discounts by customer, category and period. Use the better of the eligible company or promo discounts, not both. This pricing choice needs confirmation." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="1776" as="geometry" />
+        </mxCell>
+        <mxCell id="68" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A12 - SRS 7.9, 7.11" vertex="1">
+          <mxGeometry height="30" width="1210" x="1145" y="1879" as="geometry" />
+        </mxCell>
+        <mxCell id="69" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Count promo use for Confirmed, Completed and No-Show bookings. Do not count Pending or Cancelled. Check the promo at confirmation. Discount is above 0 and at most 100%; MaxUses is a positive integer." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="1915" as="geometry" />
+        </mxCell>
+        <mxCell id="70" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A13 - SRS 7.10" vertex="1">
+          <mxGeometry height="30" width="1210" x="1150" y="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="71" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Individuals start with zero points. Use current earned minus redeemed points for tier: Silver below 1000, Gold 1000-4999, Platinum from 5000. Do not allow a negative balance. Point conversion rates are still open." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="2046" as="geometry" />
+        </mxCell>
+        <mxCell id="72" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A14 - SRS 7.12" vertex="1">
+          <mxGeometry height="30" width="1210" x="1162" y="2137" as="geometry" />
+        </mxCell>
+        <mxCell id="73" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Keep the agreed base rate, discount percent and final rate on the rental. Return fields and late fee stay NULL until return. Record zero when there is no late fee." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="2173" as="geometry" />
+        </mxCell>
+        <mxCell id="74" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A15 - SRS 7.12" vertex="1">
+          <mxGeometry height="30" width="1210" x="1145" y="2276" as="geometry" />
+        </mxCell>
+        <mxCell id="75" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="An extension keeps the same customer and car. Close the old agreement and start the new one at the extension time, without requiring a physical return. Use a new price. No cycles." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="2312" as="geometry" />
+        </mxCell>
+        <mxCell id="76" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A16 - SRS 7.12" vertex="1">
+          <mxGeometry height="30" width="1210" x="1150" y="2407" as="geometry" />
+        </mxCell>
+        <mxCell id="77" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Extra drivers have name, license, country and expiry; phone is optional. Charge a daily fee per driver per rental. Keep these records separate from company drivers for now." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="2443" as="geometry" />
+        </mxCell>
+        <mxCell id="78" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A17 - SRS 7.14-7.15" vertex="1">
+          <mxGeometry height="30" width="1210" x="1162" y="2534" as="geometry" />
+        </mxCell>
+        <mxCell id="79" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="A report may have no photos, and a new job may have no mechanics yet. Enter the full job cost, since parts do not include labor. Supplier quotes hold the current price and lead time only." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="2570" as="geometry" />
+        </mxCell>
+        <mxCell id="80" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A18 - SRS 7.16" vertex="1">
+          <mxGeometry height="30" width="1210" x="1145" y="2673" as="geometry" />
+        </mxCell>
+        <mxCell id="81" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Invoice completed company rentals in their actual-return month. Each rental is invoiced once; keep its billed amount on the invoice line. A payment goes to a rental OR an invoice. Split-month billing, refunds and later invoices still need clarification." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="2709" as="geometry" />
+        </mxCell>
+        <mxCell id="82" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A19 - SRS 7.3-7.16" vertex="1">
+          <mxGeometry height="30" width="1210" x="1150" y="2804" as="geometry" />
+        </mxCell>
+        <mxCell id="83" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Amounts, mileage and stock cannot be negative. Payments, fines, hours and quantities used must be positive. Customer email, supplier email and SIM are not assumed unique. Keep transaction history." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="2840" as="geometry" />
+        </mxCell>
+        <mxCell id="84" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A20 - SRS 11" vertex="1">
+          <mxGeometry height="30" width="1210" x="1162" y="2931" as="geometry" />
+        </mxCell>
+        <mxCell id="85" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Use PostgreSQL: UNIQUE allows several NULLs. Use numeric(18,2) for money and timestamptz for events. SQL Server would need filtered unique indexes for optional unique values." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="2967" as="geometry" />
+        </mxCell>
+        <mxCell id="86" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A21 - SRS 7.1, 7.7" vertex="1">
+          <mxGeometry height="30" width="1210" x="1145" y="3070" as="geometry" />
+        </mxCell>
+        <mxCell id="87" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="A branch needs a manager/employee and at least one phone. A customer needs at least one phone. Create the customer, subtype and phone together in one transaction." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="3106" as="geometry" />
+        </mxCell>
+        <mxCell id="88" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#7452ad;fontStyle=1;spacing=0;" value="A22 - SRS 7.12, 7.16" vertex="1">
+          <mxGeometry height="30" width="1210" x="1150" y="3201" as="geometry" />
+        </mxCell>
+        <mxCell id="89" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Leave PaymentType and ViolationType as text: the SRS only gives examples. The invoice approach is an assumption, not a confirmed Finance policy." vertex="1">
+          <mxGeometry height="67" width="1194" x="1158" y="3237" as="geometry" />
+        </mxCell>
+        <mxCell id="90" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=26;fontColor=#17243a;fontStyle=1;spacing=0;" value="Contradictions / unclear points" vertex="1">
+          <mxGeometry height="45" width="950" x="2470" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="91" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#b63b84;fontStyle=1;spacing=0;" value="C01 - SRS 7.3" vertex="1">
+          <mxGeometry height="30" width="950" x="2470" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="92" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Category pricing is stated first, then the COO says some luxury cars have their own price. Use a vehicle override where present; otherwise use the category rate (A06)." vertex="1">
+          <mxGeometry height="67" width="934" x="2478" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="93" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#b63b84;fontStyle=1;spacing=0;" value="C02 - SRS 7.16" vertex="1">
+          <mxGeometry height="30" width="950" x="2482" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="94" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Payments are described per rental, but Finance says companies pay monthly invoices. Add invoice lines and let a payment target either a rental or an invoice (A18)." vertex="1">
+          <mxGeometry height="67" width="934" x="2478" y="473" as="geometry" />
+        </mxCell>
+        <mxCell id="95" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#b63b84;fontStyle=1;spacing=0;" value="C03 - SRS 7.4, 7.13 vs 8" vertex="1">
+          <mxGeometry height="30" width="950" x="2465" y="576" as="geometry" />
+        </mxCell>
+        <mxCell id="96" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="The product sections ask for the charged price. Finance asks for prices on any past day. That is unclear rather than a direct contradiction. Keep both history and rental snapshots (A08)." vertex="1">
+          <mxGeometry height="67" width="934" x="2478" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="97" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#b63b84;fontStyle=1;spacing=0;" value="C04 - SRS 7.7 vs 8" vertex="1">
+          <mxGeometry height="30" width="950" x="2470" y="707" as="geometry" />
+        </mxCell>
+        <mxCell id="98" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="A company driver can also be an individual customer. This does not break the customer split: the corporate customer is the company, not the driver. Add an optional link to the individual account (A09)." vertex="1">
+          <mxGeometry height="94" width="934" x="2478" y="743" as="geometry" />
+        </mxCell>
+        <mxCell id="99" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=25;fontColor=#17243a;fontStyle=1;spacing=0;" value="Calculated values" vertex="1">
+          <mxGeometry height="40" width="925" x="2490" y="951" as="geometry" />
+        </mxCell>
+        <mxCell id="100" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#17243a;fontStyle=1;spacing=0;" value="PointsBalance" vertex="1">
+          <mxGeometry height="32" width="930" x="2475" y="1016" as="geometry" />
+        </mxCell>
+        <mxCell id="101" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Earned points minus redeemed points. An empty ledger gives 0." vertex="1">
+          <mxGeometry height="40" width="930" x="2475" y="1054" as="geometry" />
+        </mxCell>
+        <mxCell id="102" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#17243a;fontStyle=1;spacing=0;" value="Tier" vertex="1">
+          <mxGeometry height="32" width="930" x="2475" y="1131" as="geometry" />
+        </mxCell>
+        <mxCell id="103" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Silver below 1000, Gold from 1000 to 4999, otherwise Platinum." vertex="1">
+          <mxGeometry height="40" width="930" x="2475" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="104" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#17243a;fontStyle=1;spacing=0;" value="UsedCount" vertex="1">
+          <mxGeometry height="32" width="930" x="2475" y="1246" as="geometry" />
+        </mxCell>
+        <mxCell id="105" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Count bookings with the promo that are Confirmed, Completed or No-Show." vertex="1">
+          <mxGeometry height="40" width="930" x="2475" y="1284" as="geometry" />
+        </mxCell>
+        <mxCell id="106" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#17243a;fontStyle=1;spacing=0;" value="Current price" vertex="1">
+          <mxGeometry height="32" width="930" x="2475" y="1361" as="geometry" />
+        </mxCell>
+        <mxCell id="107" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Use the extra/package rate that is valid now." vertex="1">
+          <mxGeometry height="40" width="930" x="2475" y="1399" as="geometry" />
+        </mxCell>
+        <mxCell id="108" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#17243a;fontStyle=1;spacing=0;" value="InvoiceTotal" vertex="1">
+          <mxGeometry height="32" width="930" x="2475" y="1476" as="geometry" />
+        </mxCell>
+        <mxCell id="109" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#17243a;fontStyle=0;spacing=0;" value="Add the BilledAmount values on its invoice lines." vertex="1">
+          <mxGeometry height="40" width="930" x="2475" y="1514" as="geometry" />
+        </mxCell>
+        <mxCell id="110" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#56667e;fontStyle=0;spacing=0;" value="These are dashed ovals in the ERD, not editable columns." vertex="1">
+          <mxGeometry height="80" width="930" x="2475" y="1621" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
